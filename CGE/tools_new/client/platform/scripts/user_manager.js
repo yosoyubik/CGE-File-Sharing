@@ -1,0 +1,1 @@
+../user/scripts/user_manager.js

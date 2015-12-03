@@ -1,0 +1,23 @@
+table, tr, td {
+	margin: 0px;
+	padding: 0 5;
+	text-align: center;
+	vertical-align: middle;
+	position:relative;
+}
+tr.runhead td{
+  margin: 0 20;
+  padding: 0 20;
+  font-weight: bold;
+  background-color: #DDD;
+}
+table.runTab{
+  margin-bottom: 10px;
+  margin-left: 14px;
+  border-left: 8px solid #3A3;
+  background-color: #EEE;
+  display: 'None';
+}
+td.left, th.left{
+	text-align: left;
+}

@@ -1,0 +1,22 @@
+# Define the services that make up your app to run together isolated
+app:
+    build: .
+    links:
+        - db
+    ports:
+        - "8889:80"
+    # volumes:
+    #     - CGE:/var/www/html
+    #     - php:/var/www/php
+db:
+  image: mysql:latest
+  expose:
+    - "3306"
+  ports:
+    - "3307:3306"
+  environment:
+    MYSQL_DATABASE: cge
+    MYSQL_USER: cgeclient
+    MYSQL_PASSWORD: www
+    MYSQL_PORT: 3306
+    MYSQL_ROOT_PASSWORD: admin123
