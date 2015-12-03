@@ -1,0 +1,121 @@
+/*This is the main CSS for the CGE services*/
+body, form {padding: 0px;margin: 0px;border: 0px;}
+table, tr, td, th {padding: 0px;margin: 0px;border: 0px;border-collapse: collapse;}
+td, th {padding: 1px;}
+th {background-color: #AAA;}
+span, p { font-size: 16px;}
+BODY {font-family: helvetica, verdana, arial, tahoma, sans-serif;font-size : 10pt;background-color:#f8f8f8;}
+TABLE {font-family: helvetica, verdana, arial, tahoma, sans-serif;font-size : 12pt;}
+TD {font-family: helvetica, verdana, arial, tahoma, sans-serif;font-size : 12pt;}
+H1 {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif;font-weight: bold;font-size: 20pt;}
+H2 {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif;font-weight: bold;font-size: 16pt;}
+H3 {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif;font-weight: bold;font-size: 13pt;}
+P {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif, sans-serif; font-size: 10pt; text-align: justify;}
+ul {font-family: helvetica, verdana, arial, tahoma, sans-serif;font-size : 10pt;}
+li {font-family: helvetica, verdana, arial, tahoma, sans-serif;font-size : 10pt; text-align: justify;}
+input {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif, sans-serif; font-size: 10pt;}
+.bulk {color: #000; font-family: helvetica, verdana, arial, tahoma, sans-serif;font-size: 10pt; text-align: justify; font-weight: normal;}
+.nav {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif, sans-serif;font-size: 8pt; font-weight: normal;}
+.search {color: #000;font-family: helvetica, verdana, arial, tahoma, sans-serif, sans-serif;font-size: 8pt;font-weight: normal;}
+a:link {color: #3956A6}
+a:active {color: #000}
+a:visited {color: #106E38}
+a:hover {color: #BF2026}
+a.black:link {color: #000}
+a.black:active {color: #000}
+a.black:visited {color: #000}
+a.black:hover {color: #000}
+
+
+
+
+/* RESULT VISUALS */
+.results td, th {border: 2px solid #FFF; padding: 4px 16px 1px 16px;	vertical-align: middle;	text-align: left; font-size: 14pt;}
+.results th {text-align: center;}
+.bggreen {background-color: #6EBE50;}      /* PERFECT HIT   */
+.bglightgreen {background-color: #BEDCBE;} /* IMPERFECT HIT */
+.bgred {background-color: #BF2026;}        /* WARNING       */
+.bggrey {background-color: #9D9D9D;}       /* NO HITS       */
+.w70 {width: 70%;}
+
+.greyhead th {
+   /* GREY HEADER COLORS */
+   color: #FFF;
+   background-color: #999;
+}
+.bluehead th {
+   /* BLUE HEADER COLORS */
+   color: #FFF;
+   background-color: #55A;
+}
+.redhead th {
+   /* RED HEADER COLORS */
+   color: #FFF;
+   background-color: #B33;
+}
+.greenhead th {
+   /* GREEN HEADER COLORS */
+   color: #FFF;
+   background-color: #484;
+}
+
+/* GLOBAL CLASSES */
+.bold {font-weight: bold;}
+.grey {color: grey;}
+.red {color: red;}
+.centerbox {margin-left: auto;margin-right: auto;}
+.center {margin-left:auto;margin-right:auto;text-align:center;}
+.right {text-align: right;}
+.hide {display:None;}
+.showhide { /* show / hide button */
+	font-size: 8pt;
+	background: transparent;
+	border: 0;
+	color: #00F;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+/* BODY DIV CLASS - for centering of the page content */
+div.body {
+   margin: auto;
+   width: 1024;
+}
+
+/* MENU BUTTONS */
+span.button {
+   font-family: "helvetica";
+   text-decoration: none;
+   text-align: center;
+   color: #FFF;
+   font-size: 16pt;
+   vertical-align: baseline;
+}
+.mytab TD {
+   background-image: url('/images/cge_buttons/1.png');
+   height: 50px;
+	white-space: nowrap;
+}
+.mytab TD:hover {
+   background-image: url('/images/cge_buttons/2.png');
+}
+.mytab TD:active {
+   background-image: url('/images/cge_buttons/4.png');
+}
+.mytab TD.left {
+   background-image: url('/images/cge_buttons/1l.png');
+   width: 12px;
+   padding: 0px;
+}
+.mytab TD.right {
+   background-image: url('/images/cge_buttons/1r.png');
+   width: 12px;
+   padding: 0px;
+}
+td.myselected {
+   background-image: url('/images/cge_buttons/3.png');
+}
+td.none:hover, td.none:active {
+   background-image: url('/images/cge_buttons/1.png');
+}

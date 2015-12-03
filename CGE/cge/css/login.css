@@ -1,0 +1,128 @@
+/*This is the CSS for the login smart menu!*/
+
+div#banner div{
+   width: 150px;
+   float: right;
+   display: Block;
+   border-collapse: collapse;
+   padding: 0px 3px;
+   margin: 5px;
+}
+div#banner div div{
+   font-size: 12px;
+   margin: 1px;
+   width:130px;
+   text-align: left;
+   height: 14px;
+}
+
+span.login{
+   font-size: 11px;
+}
+
+@-moz-document url-prefix(){ /*Mozilla offset fix*/
+   span.login{
+      position:relative;
+      top:-5px;
+   }
+   input.login{
+      padding-bottom: 10px;
+      font-size: 14px;
+   }
+}
+
+input::-moz-focus-inner{ /*Remove button padding in FF*/
+   border: 0;
+   padding: 0;
+}
+
+/* NAVIGATION PANE */
+ul.topnav {  
+    list-style: none;  
+    padding: 0 20px;      
+    margin: 0px;  
+    float: right;  
+    width: 920px;  
+    font-size: 1.2em;
+}  
+ul.topnav li {  
+    float: right;  
+    margin: 0px;    
+    padding: 10px 20px;  
+    position: relative; /*--Declare X and Y axis base for sub navigation--*/  
+    color: #DDD;  
+    display: block;  
+    z-index: 9999999;
+}  
+ul.topnav li a{
+	 font-weight: bold;
+    color: #FFF;  
+    text-decoration: none;  
+    z-index: 9999999;
+}
+ul.topnav li span{
+	 font-size:16px;
+    font-weight:bold;
+    color:#FFF;  
+    text-decoration: none;  
+    z-index: 9999999;
+}
+
+
+/* SUB NAVIGATION PANE */
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/  
+ul.topnav li ul.subnav {  
+    list-style: none;  
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+    left: 0px; top: 25px;  
+    background: #555;  
+    margin: 0px; padding: 0px;  
+    display: none;  
+    float: left;  
+    width: 120px;  
+    border: 1px solid #444;  
+}  
+ul.topnav li ul.subnav li{  
+    margin: 0px; padding: 0px;  
+    border-top: 1px solid #222; /*--Create level effect--*/  
+    border-bottom: 1px solid #555; /*--Create level effect--*/  
+    clear: both;  
+    width: 120px;  
+}  
+html ul.topnav li ul.subnav li a{  
+    float: left;  
+    width: 101px;  
+    padding-left: 20px;  
+}
+html ul.topnav li ul.subnav li:hover { /*--Hover effect for subnav links--*/  
+    background: #222;   
+}
+
+/* SUB SUB NAVIGATION PANE */
+ul.topnav li ul.subnav li span.subsubhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/  
+ul.topnav li ul.subnav li ul.subsubnav {  
+    list-style: none;  
+    position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+    left: 121px; top: -2px;  
+    background: #555;  
+    margin: 0px; padding: 0px;  
+    display: none;  
+    float: left;  
+    width: 120px;  
+    border: 1px solid #444;  
+}  
+ul.topnav li ul.subnav li ul.subsubnav li{  
+    margin: 0px; padding: 0px;  
+    border-top: 1px solid #222; /*--Create level effect--*/  
+    border-bottom: 1px solid #555; /*--Create level effect--*/  
+    clear: both;  
+    width: 120px;  
+}  
+html ul.topnav li ul.subnav li ul.subsubnav li a {  
+    float: left;  
+    width: 101px;  
+    padding-left: 20px;  
+}  
+html ul.topnav li ul.subnav li ul.subsubnav li:hover { /*--Hover effect for subnav links--*/  
+    background: #222;
+}
