@@ -23,10 +23,10 @@ CREATE TABLE `users` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
-INSERT INTO `users` VALUES (5,
+INSERT INTO `users` VALUES (9,
     'user2',
     '306ce545e313d7ae4e35ca2882fe54d023d13c75',
-    'bellod.cisneros5@gmail.com',
+    'bellod.cisneros10@gmail.com',
     '',
     '20-11-2015 09:31:01',
     '10.57.17.226',

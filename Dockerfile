@@ -62,8 +62,8 @@ RUN ssh-keyscan bitbucket.org >> /root/.ssh/known_hosts
 # RUN cp -R /var/www/uploader /var/www/html/
 COPY php /var/www/php
 COPY CGE /var/www/html
-RUN touch /var/www/html/batch/tools/server/uploader/error_log
-RUN chmod 777 /var/www/html/batch/tools/server/uploader/error_log
+# RUN touch /var/www/html/batch/tools/server/uploader/error_log
+# RUN chmod 777 /var/www/html/batch/tools/server/uploader/error_log
 RUN mkdir -p /home/data2/secure-upload
 RUN chmod -R 777 /home
 # MySQL
