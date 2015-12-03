@@ -62,7 +62,7 @@ $mysqli = new mysqli($host, $user, $passwd, $db, $port);
 
 <!-- JavaScript Uploader Iframe -->
 <div id="iframeWrapper">
-<iframe onload="onIFrameLoad();" style="overflow:hidden;" id="myIframe" src="batch" height="520" width="1024" frameBorder="5" ></iframe>
+<iframe onload="onIFrameLoad();" style="overflow:hidden;" id="myIframe" src="uploader" height="520" width="1024" frameBorder="5" ></iframe>
 </div>
 <!-- END OF CONTENT -->
 <?php
